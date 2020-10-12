@@ -1,4 +1,4 @@
-package kr.ohurjon.Discord.Events;
+package kr.ohurjon.InterDiscord.JDA.Events;
 
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.User;

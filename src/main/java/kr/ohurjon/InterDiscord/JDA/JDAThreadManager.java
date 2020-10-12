@@ -1,6 +1,4 @@
-package kr.ohurjon.JDA;
-
-import kr.ohurjon.JDA.JDAThread;
+package kr.ohurjon.InterDiscord.JDA;
 
 import java.util.ArrayList;
 

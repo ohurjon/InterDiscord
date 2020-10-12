@@ -1,9 +1,9 @@
-package kr.ohurjon.JDA;
+package kr.ohurjon.InterDiscord.JDA;
 
-import kr.ohurjon.Discord.Events.DiscordGuildMessageReactionAddEvent;
-import kr.ohurjon.Discord.Events.DiscordGuildMessageReactionRemoveEvent;
-import kr.ohurjon.Discord.Events.DiscordGuildMessageReceivedEvent;
-import kr.ohurjon.Discord.Events.DiscordPrivateMessageReceivedEvent;
+import kr.ohurjon.InterDiscord.JDA.Events.DiscordGuildMessageReactionAddEvent;
+import kr.ohurjon.InterDiscord.JDA.Events.DiscordGuildMessageReactionRemoveEvent;
+import kr.ohurjon.InterDiscord.JDA.Events.DiscordGuildMessageReceivedEvent;
+import kr.ohurjon.InterDiscord.JDA.Events.DiscordPrivateMessageReceivedEvent;
 
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
 import net.dv8tion.jda.api.events.message.guild.react.GuildMessageReactionAddEvent;

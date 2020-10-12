@@ -1,14 +1,10 @@
-package kr.ohurjon.JDA;
+package kr.ohurjon.InterDiscord.JDA;
 
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.requests.GatewayIntent;
-import org.jetbrains.annotations.NotNull;
 
 import javax.security.auth.login.LoginException;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Iterator;
 
 public class JDAThread extends Thread {
 

@@ -1,7 +1,7 @@
-package kr.ohurjon;
+package kr.ohurjon.InterDiscord;
 
-import kr.ohurjon.JDA.JDAThread;
-import kr.ohurjon.JDA.JDAThreadManager;
+import kr.ohurjon.InterDiscord.JDA.JDAThread;
+import kr.ohurjon.InterDiscord.JDA.JDAThreadManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Plugin extends JavaPlugin {

@@ -1,4 +1,4 @@
-package kr.ohurjon.Discord.Events;
+package kr.ohurjon.InterDiscord.JDA.Events;
 
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
