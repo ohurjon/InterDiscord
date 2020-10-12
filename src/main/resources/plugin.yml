@@ -1,4 +1,4 @@
-main: kr.ohurjon.Plugin
+main: kr.ohurjon.InterDiscord.Plugin
 name: InterDiscord
 version: 2.0
 api-version: 1.12.2

@@ -14,6 +14,7 @@ public class DiscordGuildMessageReceivedEvent extends DiscordDefaultEvent {
     public DiscordGuildMessageReceivedEvent(GuildMessageReceivedEvent event){
 
         this.message = event.getMessage();
+        this.Jda = event.getJDA();
 
     }
 

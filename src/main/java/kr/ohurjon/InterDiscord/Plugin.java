@@ -11,13 +11,12 @@ public class Plugin extends JavaPlugin {
     @Override
     public void onEnable() {
         plugin = this;
-        this.getServer().getPlayer("dassd").spigot().respawn();
     }
 
     @Override
     public void onDisable() {
         for (JDAThread Thread: JDAThreadManager.getThreads()) {
-            Thread.getJDA().shutdown();
+            Thread.interrupt();
         }
     }
 

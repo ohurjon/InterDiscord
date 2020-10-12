@@ -12,6 +12,7 @@ public class DiscordPrivateMessageReceivedEvent extends DiscordDefaultEvent {
     public DiscordPrivateMessageReceivedEvent(PrivateMessageReceivedEvent event){
 
         this.message = event.getMessage();
+        this.Jda = event.getJDA();
 
     }
 
