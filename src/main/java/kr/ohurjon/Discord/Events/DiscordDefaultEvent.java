@@ -1,9 +1,9 @@
-package kr.ohurjon.Minecraft.Events;
+package kr.ohurjon.Discord.Events;
 
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
-public class MinecraftDefaultEvent extends Event {
+public class DiscordDefaultEvent extends Event {
 
     private static final HandlerList handlers = new HandlerList();
 

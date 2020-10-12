@@ -1,19 +1,17 @@
-package kr.ohurjon.Minecraft.Events;
+package kr.ohurjon.Discord.Events;
 
 import net.dv8tion.jda.api.entities.Member;
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.User;
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent;
-import org.bukkit.event.Event;
-import org.bukkit.event.HandlerList;
 
 
-public class MinecraftGuildMessageReceivedEvent extends MinecraftDefaultEvent {
+public class DiscordGuildMessageReceivedEvent extends DiscordDefaultEvent {
 
     private final Message message;
 
 
-    public MinecraftGuildMessageReceivedEvent(GuildMessageReceivedEvent event){
+    public DiscordGuildMessageReceivedEvent(GuildMessageReceivedEvent event){
 
         this.message = event.getMessage();
 

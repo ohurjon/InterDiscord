@@ -1,17 +1,15 @@
-package kr.ohurjon.Minecraft.Events;
+package kr.ohurjon.Discord.Events;
 
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.User;
 import net.dv8tion.jda.api.events.message.priv.PrivateMessageReceivedEvent;
-import org.bukkit.event.Event;
-import org.bukkit.event.HandlerList;
 
 
-public class MinecraftPrivateMessageReceivedEvent extends MinecraftDefaultEvent {
+public class DiscordPrivateMessageReceivedEvent extends DiscordDefaultEvent {
 
     private final Message message;
 
-    public MinecraftPrivateMessageReceivedEvent(PrivateMessageReceivedEvent event){
+    public DiscordPrivateMessageReceivedEvent(PrivateMessageReceivedEvent event){
 
         this.message = event.getMessage();
 
