@@ -1,8 +1,8 @@
 main: kr.ohurjon.InterDiscord.Plugin
 name: InterDiscord
-version: 2.0
-api-version: 1.12.2
+version: 2.1
+api-version: 1.20.4
 description: My 2rd Interlock plug-in
 author: ohurjon
-website: ohurjon.kro.kr
+website: ohurjon.moe
 prefix: InterDiscord

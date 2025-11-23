@@ -16,10 +16,10 @@ public class JDAThread extends Thread {
         JDABuilder = net.dv8tion.jda.api.JDABuilder.create(
                 GatewayIntent.DIRECT_MESSAGE_REACTIONS,
                 GatewayIntent.DIRECT_MESSAGES,
-                GatewayIntent.GUILD_EMOJIS,
+                GatewayIntent.GUILD_EXPRESSIONS,
                 GatewayIntent.GUILD_MEMBERS,
                 GatewayIntent.GUILD_MESSAGES,
-                GatewayIntent.GUILD_BANS,
+                GatewayIntent.GUILD_MODERATION,
                 GatewayIntent.GUILD_VOICE_STATES,
                 GatewayIntent.GUILD_MESSAGE_REACTIONS
         );
@@ -44,12 +44,8 @@ public class JDAThread extends Thread {
 
     @Override
     public void start() {
-        try {
-            JDA = JDABuilder.build();
-            JDA.addEventListener(new JDAThreadListener());
-        } catch (LoginException e) {
-            e.printStackTrace();
-        }
+        JDA = JDABuilder.build();
+        JDA.addEventListener(new JDAThreadListener());
     }
 
     @Override

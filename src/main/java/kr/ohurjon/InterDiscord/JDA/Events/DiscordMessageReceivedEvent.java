@@ -2,18 +2,18 @@ package kr.ohurjon.InterDiscord.JDA.Events;
 
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.User;
-import net.dv8tion.jda.api.events.message.priv.PrivateMessageReceivedEvent;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
+import org.bukkit.Bukkit;
 
 
-public class DiscordPrivateMessageReceivedEvent extends DiscordDefaultEvent {
+public class DiscordMessageReceivedEvent extends DiscordDefaultEvent {
 
     private final Message message;
 
-    public DiscordPrivateMessageReceivedEvent(PrivateMessageReceivedEvent event){
-
+    public DiscordMessageReceivedEvent(MessageReceivedEvent event){
+        super(true);
         this.message = event.getMessage();
         this.Jda = event.getJDA();
-
     }
 
     public Message getMessage() {

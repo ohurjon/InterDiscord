@@ -6,7 +6,7 @@
 
     <groupId>kr.ohurjon</groupId>
     <artifactId>InterDiscord</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>2.1-SNAPSHOT</version>
     <build>
         <plugins>
             <plugin>
@@ -57,20 +57,14 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.12.2-R0.1-SNAPSHOT</version>
+            <version>1.21.4-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>net.dv8tion</groupId>
             <artifactId>JDA</artifactId>
-            <version>4.2.0_204</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>club.minnced</groupId>
-                    <artifactId>opus-java</artifactId>
-                </exclusion>
-            </exclusions>
+            <version>6.1.1</version>
         </dependency>
     </dependencies>
 
